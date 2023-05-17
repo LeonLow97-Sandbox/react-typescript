@@ -14,3 +14,4 @@ export const ChildAsFC: React.FC<ChildProps> = ({ color }) => {
 };
 ```
 
+## `useState` with TypeScript
