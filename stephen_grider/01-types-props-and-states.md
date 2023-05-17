@@ -15,3 +15,12 @@ export const ChildAsFC: React.FC<ChildProps> = ({ color }) => {
 ```
 
 ## `useState` with TypeScript
+
+- see `rtx` folder.
+
+## `event` in onChange
+
+- Type inference is only applied if you define inline event handlers.
+- Type inference is not applied when you define the event handlers outside.
+- Grab the type for `event` by hovering over `onChange` in JSX.
+
