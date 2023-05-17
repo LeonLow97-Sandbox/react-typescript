@@ -24,3 +24,7 @@ export const ChildAsFC: React.FC<ChildProps> = ({ color }) => {
 - Type inference is not applied when you define the event handlers outside.
 - Grab the type for `event` by hovering over `onChange` in JSX.
 
+## `useRef`
+
+- `const inputRef = useRef<HTMLInputElement | null>(null);`
+- Tells TypeScript that input ref will be `HTMLInputElement` or `null`.
